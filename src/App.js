@@ -1,7 +1,13 @@
 
+import {Header, Main, Footer} from  "./components/Latout"
 function App() {
   return (
-    <h1>hi imalsha</h1>
+    <>
+    <Header>header</Header>
+   <Main>main</Main>
+   <Footer>footer</Footer>
+    </>
+   
   );
 }
 
